@@ -6,7 +6,7 @@ int alarmLed = 12;
 int alarmTime = 4000; //ms
 
 void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
+  // initialize LEDs as PWM
   for (int i = 0; i < 4; i++) pinMode(leds[i], OUTPUT);
   pinMode(alarmLed, OUTPUT);
 }
